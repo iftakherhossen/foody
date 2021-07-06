@@ -82,7 +82,7 @@ h2 {
 
 footer {
     width: 85%;
-    height: 100px;
+    height: 120px;
     padding: 25px;
     background-color: #070720;
     text-align: center;
@@ -90,4 +90,8 @@ footer {
     margin-right: auto;
     font-size: 17px;
     color: white;
+}
+footer h3 {
+    font-size: 25px;
+    color: skyblue;
 }
