@@ -19,14 +19,14 @@ body {
     font-size: 44px;
 }
 .colored-word {
-    color: dodgerblue;
+    color: royalblue;
 }
 p {
     font-size: 19px;
 }
 .button {
     padding: 15px 20px;
-    background-image: linear-gradient(to right, dodgerblue, deepskyblue);
+    background-image: linear-gradient(to right, royalblue, mediumslateblue);
     border-radius: 25px;
     font-size: 18px;
     text-decoration: none;
@@ -35,8 +35,8 @@ p {
     box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
 }
 .half-width img {
-    width: 95%;
-    margin-top: 6%;
+    width: 90%;
+    margin-top: 3%;
 }
 .my-photo {
     width: 95%;
@@ -77,7 +77,7 @@ h2 {
 }
 .food-btn {
     padding: 6px 12px;
-    background-image: linear-gradient(to right, dodgerblue, deepskyblue);
+    background-image: linear-gradient(to right, royalblue, mediumslateblue);
     border-radius: 15px;
     font-size: 16px;
     text-decoration: none;
@@ -94,7 +94,10 @@ h2 {
     padding: 15px;
     border-radius: 15px;
     box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
-    background-color: skyblue;
+    background-image: linear-gradient(to left, royalblue, mediumslateblue);
+}
+.form-box h2 {
+    color: white;
 }
 input {
     padding: 10px;
@@ -115,14 +118,15 @@ select {
     margin-bottom: 20px;
 }
 button {
-    background-image: linear-gradient(to right, deepskyblue, dodgerblue);
-    color: white;
+    background-color: white;
+    color: #210a3f;
     padding: 10px 20px;
     border: 0;
     outline: 0;
     border-radius: 15px;
     font-size: 18px;
     margin-bottom: 15px;
+    box-shadow: 0 2px 10px 2px #ffffff33;
 }
 .count {
     width: 70%;
@@ -136,9 +140,9 @@ button {
 }
 footer {
     width: 85%;
-    height: 125px;
-    padding: 25px;
-    background-color: #070720;
+    height: 130px;
+    padding: 20px;
+    background-color: #161631;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
@@ -147,5 +151,5 @@ footer {
 }
 footer h3 {
     font-size: 25px;
-    color: skyblue;
+    color: royalblue;
 }
