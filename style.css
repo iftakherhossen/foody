@@ -1,104 +1,168 @@
+/* Style Start */
+
 body {
     margin: 0;
     font-family: 'Exo', 'sans-serif';
 }
+
 .flex-container {
     display: flex;
 }
+
+.flex-direction {
+    flex-direction: column;
+}
+
 .half-width {
-    padding: 20px;
-    width: 40%;
+    padding: 0;
+    width: 36%;
     margin-left: auto;
     margin-right: auto;
 }
+
 .txt-container {
-    padding-top: 15%;
-    padding-left: 5%;
+    padding-top: 5%;
+    padding-left: 4%;
 }
+
 .txt-container h1 {
     font-size: 44px;
 }
-.colored-word {
-    color: royalblue;
+
+.paragraph-spacing {
+    margin-top: 0;
+    margin-bottom: 0;
 }
+
+.colored-word a {
+    text-decoration: none;
+    color: dodgerblue;
+}
+
 p {
     font-size: 19px;
 }
+
 .button {
-    padding: 15px 20px;
-    background-image: linear-gradient(to right, royalblue, mediumslateblue);
-    border-radius: 20px;
+    padding: 12px 25px;
+    background-image: linear-gradient(to right, dodgerblue, deepskyblue);
+    border-radius: 25px;
     font-size: 18px;
     text-decoration: none;
     color: white;
     font-weight: bold;
-    box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .2);
 }
+
 .half-width img {
-    width: 90%;
-    margin-top: 3%;
+    width: 100%;
+    margin-top: 7%;
 }
+
+nav {
+    margin-top: 10px;
+    padding: 10px;
+}
+
+nav a {
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    border-bottom: 4px solid #8068B4;
+}
+
 .my-photo {
     width: 95%;
     margin-top: 9%;
 }
+
 .txt-box {
     margin-top: 6%;
 }
+
 .about-me {
     background-image: url(images/Frame.jpg);
     background-size: cover;
 }
+
 h2 {
     font-size: 38px;
 }
+
 .heading {
     text-align: center;
     padding: 15px;
 }
+
+.heading h2 {
+    margin-top: 0px;
+}
+
+.heading-training h2 {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
 .container {
     width: 90%;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 5%;
 }
-.recipie {
+
+.recipe {
     width: 25%;
     padding: 25px;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
     border-radius: 15px;
-    box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .2);
 }
+
+.top-recipe {
+    margin-bottom: 30px;
+}
+
 .food-img {
     width: 100%;
     border-radius: 15px;
 }
+
 .food-btn {
     padding: 6px 12px;
-    background-image: linear-gradient(to right, royalblue, mediumslateblue);
+    background-image: linear-gradient(to right, dodgerblue, deepskyblue);
     border-radius: 15px;
     font-size: 16px;
     text-decoration: none;
     color: white;
-    box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .2);
 }
+
+.see-more {
+    text-align: center;
+    margin-top: 10px;
+    padding: 10px;
+}
+
 .learn-from-me {
     width: 85%;
     margin-left: auto;
     margin-right: auto;
-    text-align: center;  
+    text-align: center;
 }
+
 .form-box {
     padding: 15px;
     border-radius: 15px;
-    box-shadow: 0 2px 10px 2px rgba(0,0, 0,.2);
-    background-image: linear-gradient(to left, royalblue, mediumslateblue);
+    box-shadow: 0 2px 10px 2px rgba(0, 0, 0, .2);
+    background-color: skyblue;
 }
-.form-box h2 {
-    color: white;
-}
+
 input {
     padding: 10px;
     border: 0;
@@ -108,6 +172,7 @@ input {
     font-size: 17px;
     margin-bottom: 20px;
 }
+
 select {
     padding: 10px;
     border: 0;
@@ -117,39 +182,165 @@ select {
     font-size: 17px;
     margin-bottom: 20px;
 }
+
 button {
-    background-color: white;
-    color: #210a3f;
+    background-image: linear-gradient(to right, deepskyblue, dodgerblue);
+    color: white;
     padding: 10px 20px;
     border: 0;
     outline: 0;
     border-radius: 15px;
     font-size: 18px;
     margin-bottom: 15px;
-    box-shadow: 0 2px 10px 2px #ffffff33;
 }
+
 .count {
     width: 70%;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
 }
+
 .count-box {
     width: 35%;
     padding: 30px 10px;
 }
+
 footer {
     width: 85%;
-    height: 130px;
-    padding: 20px;
-    background-color: #161631;
+    height: 125px;
+    padding: 25px;
+    background-color: #070720;
     text-align: center;
     margin-left: auto;
     margin-right: auto;
     font-size: 17px;
     color: white;
 }
+
 footer h3 {
     font-size: 25px;
-    color: royalblue;
+    color: white;
 }
+
+/* Style End */
+
+/* Media Query Style Start */
+
+@media screen and (max-width: 500px) {
+    body {
+        margin: 0;
+        text-align: left;
+    }
+    #home {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+    }
+    #home .img-wrapper {
+        width: 350px;
+    }
+    .half-width {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 0;
+    }
+    nav {
+        width: 250px;
+        margin-left: 255px;
+        margin-right: 0px;
+    }
+    nav a {
+        margin: 0px;
+        padding: 0px;
+        font-size: 15px;
+    }
+    .txt-container {
+        width: 100%;
+        margin: 0;
+    }
+    .txt-container h1 {
+        font-size: 22px;
+        width: 250px;
+        margin: 0;
+        margin-top: 10px;
+    }
+    .txt-container p {
+        font-size: 16px;
+        width: 250px;
+        margin: 0;
+        margin-top: 8px;
+    }
+    .txt-container .button-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: 170px;
+        text-align: center;
+    }
+    .txt-container .button {
+        margin-bottom: 10px;
+    }
+    .about-me {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px;
+        margin: 0px;
+    }
+    .about-me .button {
+        margin-bottom: 15px;
+        margin-top: -50px;
+    }
+    .my-recipes .heading {
+        width: 100%;
+    }
+    .about-me .txt-box {
+        width: 300px;
+    }
+    #about-me .my-photo {
+        width: 300px;
+    }
+    .top-recipe, .bottom-recipe {
+        display: flex;
+        flex-direction: column;
+    }
+    .recipe {
+        width: 100%;
+        margin-bottom: 25px;
+        margin-left: -14px;
+    }
+    .trainer-wrapper {
+        display: flex;
+        flex-direction: column;
+    }
+    .form-box {
+        width: 300px;
+        margin: 0;
+        margin-left: 25px;
+    }
+    .learn-responsive h2 {
+        width: 300px;
+        margin-left: 15px;
+    }
+    .learn-responsive p {
+        width: 270px;
+        margin-left: 15px;
+    }
+    .count {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    .count .count-box {
+        width: 100%;
+        padding: 5px;
+    }
+    footer {
+        width: 100%;
+        padding: 10px;
+        padding-bottom: 50px;
+    }
+}
+
+/* Media Query Style End */
