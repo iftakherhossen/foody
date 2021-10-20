@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,94 +8,140 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Exo&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f7d5949a35.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css">
     <title>Foody - Welcome</title>
 </head>
+
 <body>
-    <section class="flex-container">
+    <section id="home" class="flex-container">
         <div class="half-width">
+            <nav>
+                <a href="index.html">Home</a>
+                <a href="#about-me">About Me</a>
+                <a href="#my-recipes">Recipes</a>
+                <a href="#training">Training</a>
+            </nav>
             <div class="txt-container">
-                <h1>Wanna eat delicios food?<br>Don't worry <span class="colored-word">FOODY</span><br>is ready to serve you!</h1>
-                <p>Order a food then Relax and Chill. We provide healthy food with maintaining precautions at a lower price! So you don't need to worry about!</p><br>
-                <a class="button" href="https://www.linkedin.com/in/iftakher-hossen/">Order Now</a>
+                <h1>Wanna eat delicious food?<br>Don't worry <span class="colored-word">
+                <a href="index.html">FOODY</a></span><br>is ready to serve you!</h1>
+                <p class="paragraph-spacing">Order a food then Relax and Chill. We provide healthy food with maintaining precautions at a lower price! So you don't need to worry about!</p><br><br>
+                <div class="button-wrapper">
+                    <a class="button" href="#my-recipes">Order Now</a>
+                    <a class="button" href="#my-recipes">See All Dishes</a>
+                </div>
             </div>
         </div>
-        <div class="half-width">
+        <div class="half-width img-wrapper">
             <img src="images/woman.png" alt="Picture of Woman">
         </div>
     </section>
-    <section class="about-me flex-container">
+    <section id="about-me" class="about-me flex-container">
         <div class="half-width">
             <img class="my-photo" src="images/man.png">
         </div>
         <div class="half-width txt-box">
             <h2>About ME</h2>
-            <p>I'm Iftakher. I love to cook. I'm the <b>winner</b> of <strong>Super Star Chef - 2021</strong> presented by <b>The Daily Star</b>. I live in Dhaka I have three resturants in Mirpur. Connect with us to get my cooking videos and order food.</p><br><br><br>
+            <p>I'm Iftakher. I love to cook. I'm the <b>winner</b> of <strong>Super Star Chef - 2021</strong> presented
+                by <b>The Daily Star</b>. I live in Dhaka I have three restaurants in Mirpur. Connect with us to get my
+                cooking videos and order food.</p><br><br><br>
             <a class="button" href="https://www.instagram.com/hossen_iftakher/">Connect with FOODY</a>
         </div>
     </section>
-    <section class="my-recipies">
+    <section id="my-recipes">
         <div class="heading">
-            <h2>My Recipies</h2>
-            <p>All of my recipies is here. Follow & Subscribe FOODY for more updates</p>
+            <h2>My Recipes</h2>
+            <p>All of my recipes is here. Follow & Subscribe FOODY for more updates</p>
         </div>
-        <div class="container flex-container">
-            <div class="recipie">
-                <img class="food-img" src="images/Project Cover.png" alt="Food Recipe">
-                <h3>Thai Soup</h3>
-                <p>Mint Italian Thai Soup<br>Light Breakfast</p><br>
-                <a class="food-btn" href="#">See More</a>
+        <div class="container flex-container flex-direction">
+            <div class="top-recipe flex-container">
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover.png" alt="Food Recipe">
+                    <h3>Thai Soup</h3>
+                    <p>Mint Italian Thai Soup<br>Light Breakfast</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover1.jpg" alt="Food Recipe">
+                    <h3>Meat Masala</h3>
+                    <p>Meart Masala with Beef<br>& Fresh Vegetables</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover2.png" alt="Food Recipe">
+                    <h3>Salad</h3>
+                    <p>Light Breakfast with<br>Naan Bread & Salad</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
             </div>
-            <div class="recipie">
-                <img class="food-img" src="images/Project Cover1.jpg" alt="Food Recipe">
-                <h3>Meat Masala</h3>
-                <p>Meat Masala with Beef<br>& Fresh Vegetables</p><br>
-                <a class="food-btn" href="#">See More</a>
+            <div class="bottom-recipe flex-container">
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover3.png" alt="Food Recipe">
+                    <h3>Choupsy</h3>
+                    <p>Mint Italian Choupsy<br>Heavy Breakfast</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover4.png" alt="Food Recipe">
+                    <h3>Meat Masala</h3>
+                    <p>Meart Masala with Beef<br>& Fresh Vegetables</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
+                <div class="recipe">
+                    <img class="food-img" src="images/Project Cover5.png" alt="Food Recipe">
+                    <h3>Beef Masala</h3>
+                    <p>Heavy Breakfast with<br>Fresh Beef & Salad</p><br>
+                    <a class="food-btn" href="#">Order Now</a>
+                </div>
             </div>
-            <div class="recipie">
-                <img class="food-img" src="images/Project Cover2.png" alt="Food Recipe">
-                <h3>Salad</h3>
-                <p>Light Breakfast with<br>Naan Bread & Salad</p><br>
-                <a class="food-btn" href="#">See More</a>
+            <div class="see-more">
+                <a href="#" title="See More!"><i class="fas fa-angle-down" style="font-size: 35px;"></i></a>
             </div>
         </div>
     </section>
-    <section class="learn-from-me flex-container">
-        <div class="half-width">
-            <div class="form-box">
-                <form>
-                    <h2>Fill the Form</h2>
-                    <input type="text" placeholder="Enter Your Name">
-                    <input type="email" placeholder="Enter Your Email">
-                    <input type="tel" placeholder="Enter Your Number">
-                    <select>
-                        <option>Select Duration</option>
-                        <option>1 Month</option>
-                        <option>3 Month</option>
-                        <option>6 Month</option>
-                    </select>
-                    <select>
-                        <option>Select Coures</option>
-                        <option>Japanese Dish</option>
-                        <option>Bangladeshi Dish</option>
-                        <option>Bevarages</option>
-                        <option>Snacks Items</option>
-                        <option>Indian DIsh</option>
-                        <option>Chinese Dish</option>
-                        <option>Fast Food Items</option>
-                        <option>More Coming Soon!</option>
-                    </select>
-                    <button type="submit">APPLY NOW!</button>
-                </form>
+    <section id="training" class="learn-from-me ">
+        <div class="training-heading">
+            <h2>My Training Center</h2>
+        </div>
+        <div class="flex-container trainer-wrapper">
+            <div class="half-width">
+                <div class="form-box">
+                    <form>
+                        <h2>Fill the Form</h2>
+                        <input type="text" placeholder="Enter Your Name">
+                        <input type="email" placeholder="Enter Your Email">
+                        <input type="tel" placeholder="Enter Your Number">
+                        <select>
+                            <option>Select Duration</option>
+                            <option>1 Month</option>
+                            <option>3 Month</option>
+                            <option>6 Month</option>
+                        </select>
+                        <select>
+                            <option>Select Coures</option>
+                            <option>Japanese Dish</option>
+                            <option>Bangladeshi Dish</option>
+                            <option>Bevarages</option>
+                            <option>Snacks Items</option>
+                            <option>Indian DIsh</option>
+                            <option>Chinese Dish</option>
+                            <option>Fast Food Items</option>
+                            <option>More Coming Soon!</option>
+                        </select>
+                        <button type="submit">Apply Now!</button>
+                    </form>
+                </div>
             </div>
-        </div>
-        <div class="half-width">
-            <h2>Wanna leran from me?</h2>
-            <p>Fill the Form and Apply. After Confirmation you can Join our class and learn how to cook. You can learn verious kind of dishes. Such as Bangladeshi, Chinese, Japanese, Indian, Bevareges, Fast Food, Snacks etc.</p>
-            <p>●</p>
-            <h2>Office</h2>
-            <p>Address: Mirpur-1, Dhaka<br>Phone: +8809638179430<br>Email: info@foody.com</p>
-        </div>
+            <div class="half-width learn-responsive">
+                <h2>Wanna leran from me?</h2>
+                <p>Fill the Form and Apply. After Confirmation you can Join our class and learn how to cook. You can learn
+                    verious kind of dishes. Such as Bangladeshi, Chinese, Japanese, Indian, Bevareges, Fast Food, Snacks
+                    etc.</p>
+                <p>●</p>
+                <h2>Office</h2>
+                <p>Address: Mirpur-1, Dhaka<br>Phone: +8809638179430<br>Email: info@foody.com</p>
+            </div>
+        </div> 
     </section>
     <section class="count flex-container">
         <div class="count-box">
@@ -106,13 +153,14 @@
             <p>Instagram Followers</p>
         </div>
         <div class="count-box">
-            <h2>720k</h2>
+            <h2>100k</h2>
             <p>Dribble Shots Like</p>
-        </div>      
+        </div>
     </section>
     <footer>
         <h3>● FOODY ●</h3>
         <p>Eat Healthy – Look Healthy – Feel Healthy</p>
     </footer>
 </body>
+
 </html>
