@@ -223,6 +223,15 @@ footer h3 {
     color: white;
 }
 
+footer a {
+    text-decoration: none;
+    color: #87CEEB;
+}
+
+footer a:hover {
+    font-weight: bold;
+}
+
 /* Style End */
 
 /* Media Query Style Start */
